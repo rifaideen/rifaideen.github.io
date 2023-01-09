@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Rifaudeen, Senior Full-Stack Developer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    #carouselExampleIndicators-1 .carousel-item img {
+      object-fit: cover;
+      object-position: center;
+      overflow: hidden;
+      height: 100vh;
+    }
+
+    #projects img.card-img-top {
+      object-fit: cover;
+      object-position: center;
+      overflow: hidden;
+      height: 40vh;
+    }
+
+    #projects .card-text {
+      height: 350px;
+      /* same as the max-height of the overflow-y property */
+      /* overflow-y: scroll;
+      max-height: 250px; */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">About Me - Rifaudeen, Senior Full-Stack Developer</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators-1" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="images/labaiik.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption text-dark d-none d-md-block">
+          <h3>Labaiik</h3>
+          <p>I worked on the APIs, search, and catalog for Labaiik, a popular e-commerce app in the Middle East. I
+            developed and maintained a set of RESTful APIs that powered the app's core functionality, including product
+            listings, user accounts, and checkout. I also implemented an advanced search system that allowed users to
+            quickly find products using various filters and keywords. In addition, I enhanced the flow and efficiency of
+            the existing catalog system, which enabled the app to handle a large number of products and categories more
+            efficiently. These features have contributed to the app's success and user satisfaction.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="images/ghraoui.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption text-white d-none d-md-block">
+          <h3>Ghraoui Chocolates</h3>
+          <p>I developed a RESTful API for Ghraoui, a leading confectionery company in the Middle East, to support their
+            full e-commerce system. The API allows customers to browse and purchase products online, and integrates with
+            the company's inventory and payment systems. I implemented advanced security measures to protect customer
+            data, and optimized the API for performance and scalability. The API has enabled Ghraoui to expand their
+            online sales and deliver a seamless shopping experience to their customers.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="images/villaggio.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption text-white d-none d-md-block">
+          <h3>Villaggio Qatar</h3>
+          <p>I developed a responsive, website for Villaggio Mall Qatar, one of the largest shopping centers
+            in the Middle East. The website features a modern design and intuitive navigation, and allows customers to
+            browse products from a variety of stores and brands. I implemented advanced search and
+            filtering capabilities, and integrated the website with the mall's in-store inventory system. The website
+            has received positive feedback from customers and has contributed to the mall's sales growth.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="images/squeeze.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption text-dark d-none d-md-block">
+          <h3>Squeeze</h3>
+          <p>I worked on API development for Squeezemassage.com, a leading provider of on-demand massage services. I
+            developed and maintained a set of RESTful APIs that powered the company's online booking system and
+            integrated with their payment and scheduling systems. I enhanced the flow and functionality of the booking
+            process, and optimized the APIs for performance and scalability. These improvements have contributed to the
+            company's growth and customer satisfaction.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="images/syndigo.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption text-dark d-none d-md-block">
+          <h3>Sellpoints (Syndigo)</h3>
+          <p>I worked on the Sellpoints admin APIs, a set of RESTful APIs that enabled the company's team of product
+            managers to manage and publish interactive product content on the Sellpoints platform. Sellpoints is an
+            e-commerce optimization platform that helps brands to engage their customers by telling product stories
+            through interactive "hotspots" on retail product pages.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-1"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-1"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- About Me -->
+  <div class="container mt-5" id="about">
+    <h2>About Me</h2>
+    <p>I am a full-stack developer with over 11 years of experience in the industry. I started my career working with
+      the LAMP stack (Linux, Apache, MySQL, and PHP), and then transitioned into Node.js development. I am now an expert
+      in Express, NestJs, Vue, Angular and have a strong understanding of modern web development technologies and best
+      practices.</p>
+    <p>In my current role, I am responsible for developing and maintaining web applications and APIs. I
+      enjoy working on projects that are challenging and require me to think creatively and critically. I am a strong
+      problem-solver, and I am always looking for ways to improve and optimize my code.</p>
+    <p>In my free time, I enjoy staying up to date with the latest developments in web development and exploring new
+      technologies. I also enjoy spending time with my family and participating in outdoor activities as well as
+      watching movies.</p>
+  </div>
+
+  <!-- Project Showcase -->
+  <div class="container mt-5" id="projects">
+    <h2>Recent Projects</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/labaiik.png" class="card-img-top" alt="project1">
+          <div class="card-body">
+            <h5 class="card-title">Labaiik</h5>
+            <p class="card-text">
+              I worked on the APIs, search, and catalog for Labaiik, a popular e-commerce app in the Middle East. I
+              developed and maintained a set of RESTful APIs that powered the app's core functionality, including
+              product
+              listings, user accounts, and checkout.
+              <br /><br />
+              I also implemented an advanced search system that allowed users to
+              quickly find products using various filters and keywords. In addition, I enhanced the flow and efficiency
+              of
+              the existing catalog system, which enabled the app to handle a large number of products and categories
+              more
+              efficiently.
+              <br /><br />
+              These features have contributed to the app's success and user satisfaction.
+            </p>
+            <a href="https://www.labaiik.com" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/ghraoui.png" class="card-img-top" alt="project2">
+          <div class="card-body">
+            <h5 class="card-title">Ghraoui Chocolates</h5>
+            <p class="card-text">
+              I developed a RESTful API for Ghraoui, a leading confectionery company in the Middle
+              East, to support their full e-commerce system.
+              <br /><br />
+              The API allows customers to browse and purchase products online, and integrates
+              with the company's inventory and payment systems. I implemented advanced security measures to protect
+              customer
+              data, and optimized the API for performance and scalability.
+              <br /><br />
+              The API has enabled Ghraoui to expand their
+              online sales and deliver a seamless shopping experience to their customers.
+            </p>
+            <a href="https://www.ghraouichocolate.com" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/villaggio.png" class="card-img-top" alt="project3">
+          <div class="card-body">
+            <h5 class="card-title">Villaggio Qatar</h5>
+            <p class="card-text">I developed a responsive, website for Villaggio Mall Qatar, one of the largest shopping
+              centers
+              in the Middle East.
+              <br /><br />
+              The website features a modern design and intuitive navigation, and allows customers to
+              browse products from a variety of stores and brands.
+              <br /><br />
+              I implemented advanced search and
+              filtering capabilities, and integrated the website with the mall's in-store inventory system.
+              <br /><br />
+              The website
+              has received positive feedback from customers and has contributed to the mall's sales growth.
+            </p>
+            <a href="http://www.villaggioqatar.com/en" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Skills -->
+  <div class="container mt-5" id="skills">
+    <h2>Development Stacks</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">MEAN</h5>
+            <p class="card-text">Expertise in the MEAN stack (MongoDB, Express, Angular, and Node.js).</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">MEVN</h5>
+            <p class="card-text">Expertise in the MEVN stack (MongoDB, Express, Vue.js, and Node.js).</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">LAMP</h5>
+            <p class="card-text">Expertise in the LAMP stack (Linux, Apache, MySQL, and PHP).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5" id="skills">
+    <h2>Database Skills</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">MySQL</h5>
+            <p class="card-text">Proficiency with MySQL database management and querying.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">MongoDB</h5>
+            <p class="card-text">Proficiency with MongoDB database management and querying.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2>Core Skills</h2>
+    <ul class="list-group mb-3">
+      <li class="list-group-item">MEAN / MEVN / LAMP Stack Development</li>
+      <li class="list-group-item">REST / GraphQL API Development</li>
+      <li class="list-group-item">ElasticSearch Integration</li>
+      <li class="list-group-item">SDLC</li>
+      <li class="list-group-item">Agile</li>
+      <li class="list-group-item">JIRA</li>
+      <li class="list-group-item">Application Development</li>
+      <li class="list-group-item">SQL & NoSQL Database Design / Optimization</li>
+      <li class="list-group-item">CRM Development</li>
+      <li class="list-group-item">Module Development</li>
+      <li class="list-group-item">Admin Dashboard Development</li>
+      <li class="list-group-item">Payment Gateway Integration</li>
+      <li class="list-group-item">Automation</li>
+      <li class="list-group-item">CI / CD Implementation</li>
+      <li class="list-group-item">SDK Integration</li>
+      <li class="list-group-item">Hosting and Maintenance</li>
+    </ul>
+  </div>
+
+  <!-- Contact -->
+  <div class="container mt-5" id="contact">
+    <h2>Contact Me</h2>
+    <p>Thank you for visiting my portfolio. If you have any questions or would like to work with me, please don't hesitate to contact me via email. I'll be more than happy to discuss your project and see how I can help.</p>
+    <p>You can reach me at a.rifaudeen[@]gmail.com</a>. I look forward to hearing from you!</p>
+  </div>
+  
+
+  <!-- Footer -->
+  <footer class="bg-light py-3 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-muted">Copyright &copy; 2023 About Me - Rifaudeen, Senior Full-Stack Developer</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
